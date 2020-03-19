@@ -1,0 +1,9 @@
+{"namespace": "com.tala",
+  "type": "record",
+  "name": "TestObject",
+  "fields": [
+      {"name": "someLong", "type": "long"},
+      {"name": "number",  "type": ["null","int"], "default": null}
+  ]
+ }
+
